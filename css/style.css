@@ -1,0 +1,293 @@
+body{
+
+}
+
+
+.prodyckt{
+	background: url(../img/4-layers.png);
+	width: 800px;
+	height: 600px;
+	margin: auto;
+	padding-top: 109px;
+}
+.prodyckt__viev{
+	width: 686px;
+	height: 391px;
+	box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
+	border-radius: 10px;
+	background-color: #111a28;
+	margin-bottom: 100px;
+	margin-left: 63px;
+	margin-right: 51px;
+}
+.prodyckt__left{
+	float: left;
+}
+/* продукт */
+.prodyckt__logo{
+	background: url(../img/logo.png);
+	width: 65px;
+	height: 33px;
+	margin-left: 21px;
+    margin-top: 24px;
+}
+.prodyckt__foto{
+	background: url(../img/nike-sb-stefan-janoski-max.png);
+	width: 329px;
+	height: 159px;
+	margin-left: 36px;
+	margin-top: 69px;
+}
+.prodyckt__knopki{
+	margin-left: 178px;
+	margin-top: 73px;
+}
+
+
+.knopka1{
+	width: 12px;
+	height: 12px;
+	background-color: #1f273f;
+	display: inline-block;
+	border-radius: 50%;
+
+}
+.elips:hover{
+	width: 16px;
+	height: 16px;
+	border: 2px solid #ffffff;
+	background-color: #1f273f;
+	opacity: 0.46;
+}
+.knopka2{
+	width: 9px;
+	height: 9px;
+	background-color: #ffffff;
+	display: inline-block;
+	border-radius: 50%;
+
+}
+.knopka3{
+	width: 9px;
+	height: 9px;
+	background-color: #ed3333;
+	display: inline-block;
+	border-radius: 50%;
+}
+.knopka4{
+	width: 9px;
+	height: 9px;
+	background-color: #29e3ea;
+	display: inline-block;
+	border-radius: 50%;
+}
+/* вторая половина */
+.prodyckt__right{
+	float: right;
+	width: 250px;
+	margin-top: 78px;
+}
+
+.prodyckt__title h3{
+	width: 155px;
+	height: 44px;
+	color: #e1e1e1;
+	font-family: "Museo Sans Rounded";
+	font-size: 24px;
+	font-weight: 100;
+	line-height: 26px;
+}
+.prodyckt__span span{
+	width: 172px;
+	opacity: 0.54;
+	color: #e1e1e1;
+	font-family: "Museo Sans Rounded";
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 26px;
+}
+
+/* Звезды*/
+
+.rating > span:hover:before {
+   content: "\2605";
+   position: absolute;
+}
+.rating {
+    float: right;
+    padding-right: 55px;
+}
+.rating > span{
+	color: #fac919;
+}
+
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+
+}
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  margin-right: 107px;
+
+
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+/* выпадающее меню */
+
+.dropdown-top:after{
+	content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    margin-top: -3px;
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: #e1e1e1 transparent;
+}
+
+
+ul.dropdown li { position: relative; }
+ ul.dropdown,
+ ul.dropdown-inside {
+ list-style-type: none;
+ padding: 0;
+ }
+ ul.dropdown-inside {
+ position: absolute;
+ left: -9999px;
+ }
+ ul.dropdown li.dropdown-top {
+ display: inline;
+ float: left;
+ margin: 0 1px 0 0;
+ }
+ ul.dropdown li.dropdown-top a {
+ padding: 3px 22px 4px;
+ display: block;
+ }
+ ul.dropdown a.dropdown-top { 
+	border: 1px solid #ffffff;
+	background-color: #111a28;
+	opacity: 0.26;
+ }
+ ul.dropdown a.dropdown-top:hover { padding: 2px 22px 5px; }
+ ul.dropdown li.dropdown-top:hover .dropdown-inside {
+ display: block;
+ left: 0;
+ }
+ ul.dropdown .dropdown-inside { 
+	border: 1px solid #ffffff;
+	background-color: #111a28;
+	opacity: 0.26;
+}
+ ul.dropdown .dropdown-inside a:hover { background: #efefef; }
+
+
+.dropdown-top{
+	color: #e1e1e1;
+	font-family: "Museo Sans Rounded";
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 18px;
+
+}
+.vubor{
+	    margin-top: 45px;
+}
+
+.btn{
+	width: 184px;
+	height: 40px;
+	border: 1px solid #ffffff;
+	background-color: #4c525a;
+	opacity: 0.26;
+	margin-top: 100px;
+	text-align: center;
+}
+.btn span{
+	width: 70px;
+	height: 11px;
+	color: #e1e1e1;
+	font-family: "Museo Sans Rounded";
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 18px;
+}
+
+.btn:hover{
+	background-color: red;
+}
+
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
